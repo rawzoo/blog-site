@@ -1,0 +1,30 @@
+{
+  "name": "simple-blog-site",
+  "version": "1.0.0",
+  "description": "simple Blog site where you can post article,log in and CRUD oprations",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawzoo/blog.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "RAJU KUMAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawzoo/blog/issues"
+  },
+  "homepage": "https://github.com/rawzoo/blog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
